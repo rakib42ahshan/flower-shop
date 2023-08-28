@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+header{
+background: rgba(229, 84, 115, 0.1);
+
+}
+.banner-head{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-list > li > a{
+    text-decoration: none;
+}
