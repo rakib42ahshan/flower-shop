@@ -4,9 +4,14 @@
 
 }
 
+section {
+    padding: 20px 100px 0px 100px;
+    margin-bottom: 60px;
+}
+
 header {
     background: rgba(229, 84, 115, 0.1);
-    padding: 20px 100px 0px 100px;
+    /* padding: 20px 100px 0px 100px; */
 
 }
 
@@ -29,7 +34,7 @@ header {
     text-decoration: none;
 }
 
-.btn-main{
+.btn-main {
     border: none;
     border-radius: 8px;
     background: #E55473;
@@ -57,6 +62,78 @@ header {
     font-size: 18px;
     font-weight: 400;
 }
-.banner-body-img{
+
+.banner-body-img {
     width: 50%;
+}
+
+/* our featured flowers section style */
+.ft-flower {
+    margin-bottom: 150px;
+}
+
+.sec-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.sec-para {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 42px;
+}
+
+.ft-flower-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.ft-flower-item img {
+    width: 300px;
+    height: 380px;
+    margin-bottom: 32px;
+
+}
+
+.item1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.item2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.item3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* service style */
+.why-we {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0px 100px;
+    padding-bottom: 24px;
+}
+
+.why-we-title {
+    margin-bottom: 80px;
+}
+
+.different-service {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    text-align: center;
 }
