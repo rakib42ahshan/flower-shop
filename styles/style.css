@@ -121,7 +121,7 @@ header {
 .why-we {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 0px 100px;
+    margin: 0px 100px 120px;
     padding-bottom: 24px;
 }
 
@@ -136,4 +136,55 @@ header {
 
 .service {
     text-align: center;
+}
+
+/* hot deal style */
+.hot-deal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.hoy-deal-des {
+    text-align: center;
+}
+
+/* instagram styles */
+.insta>img {
+    width: 22%;
+}
+
+.insta {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* news letter subscription style */
+.news {
+
+    background-image: url(../images/Rectangle\ 9.png);
+    background-size: cover;
+    margin: 150px 100px 120px;
+    padding-bottom: 84px;
+}
+
+.news-title {
+    margin-top: 36px;
+}
+
+.news-subscription {
+    text-align: center;
+}
+
+#news-mail {
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 18px 300px 18px 20px;
+
 }
