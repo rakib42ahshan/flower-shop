@@ -5,13 +5,21 @@
 }
 
 section {
-    padding: 20px 100px 0px 100px;
+    padding: 16px 100px 0px 100px;
     margin-bottom: 60px;
 }
 
+/* header/banner part style */
 header {
     background: rgba(229, 84, 115, 0.1);
     /* padding: 20px 100px 0px 100px; */
+
+}
+
+.flower-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 900;
 
 }
 
@@ -19,6 +27,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #111010;
+    padding-bottom: 16px;
 }
 
 .nav-list {
@@ -32,9 +42,12 @@ header {
 
 .nav-list>li>a {
     text-decoration: none;
+    color: white;
 }
 
 .btn-main {
+    font-weight: 700;
+    font-size: 14px;
     border: none;
     border-radius: 8px;
     background: #E55473;
@@ -149,11 +162,11 @@ header {
     margin-bottom: 60px;
 }
 
-.hoy-deal-des {
+.hot-deal-des {
     text-align: center;
 }
 
-/* instagram styles */
+/* instagram part styles */
 .insta>img {
     width: 22%;
 }
@@ -187,4 +200,32 @@ header {
     background: #FFF;
     padding: 18px 300px 18px 20px;
 
+}
+
+/* footer style */
+footer {
+    padding: 20px 100px 160px 100px;
+    margin-top: 60px;
+    background: #111010;
+    text-align: center;
+}
+
+.foot-para {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 46px;
+    margin-top: 32px;
+}
+
+.copyright-para {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.white-text{
+    color: white;
 }
